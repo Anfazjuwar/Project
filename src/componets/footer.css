@@ -1,0 +1,29 @@
+section {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+}
+
+section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(241 245 249);
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  transform: scaleX(1.6);
+}
+
+section .content {
+  z-index: 1;
+}
+section h1:hover {
+  color: blue;
+  cursor: pointer;
+}
+li:hover {
+  color: blue;
+  cursor: pointer;
+}
